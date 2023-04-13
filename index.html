@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sprint.js">
+</head>
+<body>
+    <main class="main">          
+        <section class="principal">      
+            <div class="imagendiv">
+                <h1><img class="imagen" src="Logo.png" alt=""></h1>
+            </div>
+            <div class="div1">
+                <textarea class="textfondo" id="textarea" cols="50" rows="12" placeholder="Introduzca el texto aqui"></textarea> 
+                <p>&#9884;Solo letras minusculas y sin acentos</p><br>
+                <button class="encriptar" onclick="encriptar()" id="button" >Encriptar!</button>
+                <button class="desencriptar" onclick="desencriptar()" id="button" >Desencriptar!</button>                                 
+            </div>
+            <div class="div2">
+                <textarea class="textfondo2"id="result" cols="30" rows="40" ></textarea>
+                <button onclick="copiar()"><span id="copiar-boton">Copiar</span></button>                               
+            </div>   
+            <div id="imagentexto">
+                <div id="botonoculto">
+                    <button onclick="encriptar()" id="button" ></button> 
+                    <button onclick="desencriptar()" id="button" ></button>                                                           
+                </div>                                    
+                <div id="imagenoculta">
+                    <img src="3.png" alt="">
+                </div>
+            </div>                             
+        </section>  
+    </main>    
+    <script src="sprint.js"></script>
+</body>
+</html>

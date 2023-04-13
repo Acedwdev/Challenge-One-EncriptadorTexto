@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: linear-gradient(#FFFFFF, #BBBBBB);
+}
+
+
+.principal{
+    display: flex;
+}
+
+.imagendiv{
+    margin-left: 20px;
+    margin-top: 40px;    
+}
+
+.div1{      
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 480px;
+    width: 650px;
+    font-family: 'Inter';
+    font-size: 20px; 
+              
+}
+
+.div1 textarea{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 400px; 
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;  
+    padding: 10px;     
+    
+}
+
+
+.textfondo2{
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.div2{
+    position: absolute;
+    top: 51%;
+    left: 85%;    
+    height: 600px;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.div2 textarea{
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 500px; 
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;  
+    padding: 40px;  
+    
+}
+
+.div2 button{
+    position: absolute;
+    top: 90%;
+    left: 11%;
+    width: 80%;   
+    padding: 10px 0; 
+    font-size: 18px;
+    font-weight: bold;        
+    color: black;
+    background: rgb(129, 129, 202);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.textfondo{
+    background: none;
+    border: none;        
+    resize: none;
+    font-family: 'Inter';
+    font-size: 30px;
+}
+
+.encriptar{
+    width: 40%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(25, 25, 99);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.desencriptar{
+    width: 40%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: rgb(129, 129, 202);
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#botonoculto{
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    transform: translate(-40%, -40%);      
+    background: transparent;
+}
+
+#imagenoculta{
+    position: absolute;
+    top: 10%;
+    left: 73%;  
+    width: 100%;  
+    display: block;
+    border-radius: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
